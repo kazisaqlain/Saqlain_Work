@@ -1,0 +1,957 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`FACT_STUDENT$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StudentSK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="Double" />
+            <Field name="STUDENT_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="Double" />
+            <Field name="STUDENT_FIRSTNAME" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="V_String" />
+            <Field name="Student_type" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="V_String" />
+            <Field name="STUDENT_STATUS" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="V_String" />
+            <Field name="SOR_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="Double" />
+            <Field name="SOR_LOAD_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="V_String" />
+            <Field name="SOR_UPDATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="V_String" />
+            <Field name="DI_CREATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="V_String" />
+            <Field name="DI_MODIFIED_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="V_String" />
+            <Field name="PROFESSORSK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="Double" />
+            <Field name="DATESK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="Double" />
+            <Field name="COURSE_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="Double" />
+            <Field name="DEPARTMENT_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`FACT_STUDENT$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`Dim_UNIVERSITY$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DI_MODIFIED_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="V_String" />
+            <Field name="DI_CREATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="V_String" />
+            <Field name="SOR_UPDATEDATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="V_String" />
+            <Field name="UNIVERSITY_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="Double" />
+            <Field name="REPORTSTOSK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="Double" />
+            <Field name="SOR_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="Double" />
+            <Field name="SOR_LOADDATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="V_String" />
+            <Field name="LastName" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="V_String" />
+            <Field name="Address" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="V_String" />
+            <Field name="PostalCode" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="Double" />
+            <Field name="Phone" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="Double" />
+            <Field name="Fax" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="Double" />
+            <Field name="Email" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="V_String" />
+            <Field name="PROFESSORSK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_UNIVERSITY$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_SERVICES$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`Dim_SERVICES$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SERVICES_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_SERVICES$`" type="Double" />
+            <Field name="SERVICE_TYPE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_SERVICES$`" type="V_String" />
+            <Field name="SERVICE_NAME" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_SERVICES$`" type="V_String" />
+            <Field name="OFFICE_LOCATION" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_SERVICES$`" type="V_String" />
+            <Field name="STUDENT_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_SERVICES$`" type="Double" />
+            <Field name="NU_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_SERVICES$`" type="Double" />
+            <Field name="UNIVERSITY_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`Dim_SERVICES$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`DIM_SEMESTER$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SEMESTER_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`" type="Double" />
+            <Field name="SEMESTER_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`" type="Double" />
+            <Field name="SEMESTER_TYPE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`" type="V_String" />
+            <Field name="SEMESTER_DURATION" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`" type="V_String" />
+            <Field name="STUDENT_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`" type="Double" />
+            <Field name="NU_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`" type="Double" />
+            <Field name="SOR_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`" type="Double" />
+            <Field name="SOR_LOAD_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`" type="V_String" />
+            <Field name="SOR_UPDATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`" type="V_String" />
+            <Field name="DI_STUDENT_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`" type="Double" />
+            <Field name="StudentSK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_SEMESTER$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="354" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_PROFESSOR$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`DIM_PROFESSOR$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PROFESSORSK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_PROFESSOR$`" type="Double" />
+            <Field name="COURSE_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_PROFESSOR$`" type="Double" />
+            <Field name="DI_CREATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_PROFESSOR$`" type="V_String" />
+            <Field name="DI_MODIFIED_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_PROFESSOR$`" type="V_String" />
+            <Field name="SOR_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_PROFESSOR$`" type="Double" />
+            <Field name="SOR_LOAD_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_PROFESSOR$`" type="V_String" />
+            <Field name="SOR_UPDATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_PROFESSOR$`" type="V_String" />
+            <Field name="PROFESSOR_COURSE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_PROFESSOR$`" type="V_String" />
+            <Field name="COURSE_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_PROFESSOR$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="354" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`DIM_ELECTIVE_COURSE$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ELECTIVE_COURSE_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="Double" />
+            <Field name="ELECTIVE_COURSE_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="Double" />
+            <Field name="Title" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="V_String" />
+            <Field name="ELECTIVE_COURSE_CREDITS" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="Double" />
+            <Field name="ELECTIVE_COURSE_CRN" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="Double" />
+            <Field name="SOR_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="Double" />
+            <Field name="SOR_LOAD_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="V_String" />
+            <Field name="SOR_UPDATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="V_String" />
+            <Field name="DI_STUDENT_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="Double" />
+            <Field name="DI_CREATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="V_String" />
+            <Field name="DI_MODIFIED_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="V_String" />
+            <Field name="CORE_COURSE_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ELECTIVE_COURSE$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_DEPARTMENT$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`DIM_DEPARTMENT$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DI_MODIFIED_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_DEPARTMENT$`" type="V_String" />
+            <Field name="DI_CREATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_DEPARTMENT$`" type="V_String" />
+            <Field name="SORUPDATEDATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_DEPARTMENT$`" type="V_String" />
+            <Field name="SORLOAdDATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_DEPARTMENT$`" type="V_String" />
+            <Field name="SOR_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_DEPARTMENT$`" type="Double" />
+            <Field name="DEPARTMENT_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_DEPARTMENT$`" type="Double" />
+            <Field name="UNIVERSITY_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_DEPARTMENT$`" type="Double" />
+            <Field name="PROFESSORSK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_DEPARTMENT$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_FEES$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`DIM_COURSE_FEES$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="COURSEFEES_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_FEES$`" type="Double" />
+            <Field name="STUDENT_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_FEES$`" type="Double" />
+            <Field name="NU_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_FEES$`" type="Double" />
+            <Field name="FEE_DUE" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_FEES$`" type="Double" />
+            <Field name="CREDITS" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_FEES$`" type="Double" />
+            <Field name="SOR_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_FEES$`" type="Double" />
+            <Field name="SOR_LOAD_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_FEES$`" type="V_String" />
+            <Field name="SOR_UPDATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_FEES$`" type="V_String" />
+            <Field name="DI_CREATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_FEES$`" type="V_String" />
+            <Field name="DI_MODIFIED_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_FEES$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="354" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_CREDIT$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`DIM_COURSE_CREDIT$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SOR_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_CREDIT$`" type="Double" />
+            <Field name="COURSE_CREDIT_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_CREDIT$`" type="Double" />
+            <Field name="SOR_LOAD_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_CREDIT$`" type="V_String" />
+            <Field name="SOR_UPDATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_CREDIT$`" type="V_String" />
+            <Field name="DI_STUDENT_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_CREDIT$`" type="Double" />
+            <Field name="DI_CREATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_CREDIT$`" type="V_String" />
+            <Field name="DI_MODIFIED_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_CREDIT$`" type="V_String" />
+            <Field name="COURSEFEES_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE_CREDIT$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="342" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`DIM_COURSE$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="COURSE_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="Double" />
+            <Field name="COURSE_DURATION" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="V_String" />
+            <Field name="CREDITS" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="Double" />
+            <Field name="COURSE_CRN" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="Double" />
+            <Field name="SOR_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="Double" />
+            <Field name="SOR_LOAD_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="V_String" />
+            <Field name="SOR_UPDATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="V_String" />
+            <Field name="DI_CREATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="V_String" />
+            <Field name="DI_MODIFIED_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="V_String" />
+            <Field name="ELECTIVE_COURSE_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="Double" />
+            <Field name="CORE_COURSE_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="Double" />
+            <Field name="COURSEFEES_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="Double" />
+            <Field name="COURSE_CREDIT_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="Double" />
+            <Field name="SEMESTER_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_COURSE$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="678" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_CORE_COURSE$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`DIM_CORE_COURSE$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CORE_COURSE_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_CORE_COURSE$`" type="Double" />
+            <Field name="Name" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_CORE_COURSE$`" type="V_String" />
+            <Field name="CORE_COURSE_CRN" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_CORE_COURSE$`" type="Double" />
+            <Field name="CORE_COURSE_CREDITS" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_CORE_COURSE$`" type="Double" />
+            <Field name="SOR_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_CORE_COURSE$`" type="Double" />
+            <Field name="SOR_LOAD_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_CORE_COURSE$`" type="V_String" />
+            <Field name="SOR_UPDATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_CORE_COURSE$`" type="V_String" />
+            <Field name="DI_CREATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_CORE_COURSE$`" type="V_String" />
+            <Field name="DI_MODIFIED_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_CORE_COURSE$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="678" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GRADUATE_STUDENT.xlsx
+Query=`DIM_ADMISSION_DATE$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DATESK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="Double" />
+            <Field name="FULLDATEAK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="Double" />
+            <Field name="DAYNUMBEROFWEEK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="Double" />
+            <Field name="DAYNAMEOFWEEK" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="V_String" />
+            <Field name="DAYNUMBEROFMONTH" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="Double" />
+            <Field name="DAYNUMBEROFYEAR" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="Double" />
+            <Field name="WEEKNUMBEROFYEAR" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="Double" />
+            <Field name="MONTHNAME" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="V_String" />
+            <Field name="MONTHNUMBEROFYEAR" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="Double" />
+            <Field name="CALENDERQUARTER" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="V_String" />
+            <Field name="CALENDERYEAR" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="Double" />
+            <Field name="SOR_ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="Double" />
+            <Field name="SOR_LOAD_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="V_String" />
+            <Field name="SOR_UPDATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="V_String" />
+            <Field name="DI_CREATE_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="V_String" />
+            <Field name="DI_MODIFIED_DATE" size="255" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="V_String" />
+            <Field name="UNIVERSITY_SK" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\GRADUATE_STUDENT\GRADUATE_STUDENT.xlsx|||`DIM_ADMISSION_DATE$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="210" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||FACT_STUDENT</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=FACT_STUDENT</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="222" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||DIM_UNIVERSITY</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=DIM_UNIVERSITY</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="222" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||DIM_SERVICES</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=DIM_SERVICES</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="210" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||DIM_DEPARTMENT</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=DIM_DEPARTMENT</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="210" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||DIM_COURSE_FEES</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=DIM_COURSE_FEES</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="570" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||DIM_SEMESTER</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=DIM_SEMESTER</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="558" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||DIM_PROFESSOR</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=DIM_PROFESSOR</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="570" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||DIM_ELECTIVE_COURSE</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=DIM_ELECTIVE_COURSE</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="570" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||DIM_DEPARTMENTS</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=DIM_DEPARTMENTS</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="474" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||DIM_COURSE</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=DIM_COURSE</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="846" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||DIM_CORE_COURSE</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=DIM_CORE_COURSE</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="846" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Graduate_student1|||DIM_ADMISSION_DATE</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Graduate_student1
+Query=DIM_ADMISSION_DATE</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>GRAD</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
