@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Crimes_-_2001_to_Present.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Case Number" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Date" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Block" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="IUCR" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Primary Type" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Description" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Location Description" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Arrest" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Domestic" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Beat" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="District" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Ward" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Community Area" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="FBI Code" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="X Coordinate" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Y Coordinate" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Year" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Updated On" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+            <Field name="Location" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ID" selected="True" />
+            <Field field="Case Number" selected="True" />
+            <Field field="Date" selected="True" />
+            <Field field="Block" selected="True" />
+            <Field field="IUCR" selected="True" />
+            <Field field="Primary Type" selected="True" />
+            <Field field="Description" selected="True" />
+            <Field field="Location Description" selected="True" />
+            <Field field="Arrest" selected="True" />
+            <Field field="Domestic" selected="True" />
+            <Field field="Beat" selected="True" />
+            <Field field="District" selected="True" />
+            <Field field="Ward" selected="True" />
+            <Field field="Community Area" selected="True" />
+            <Field field="FBI Code" selected="True" />
+            <Field field="X Coordinate" selected="True" />
+            <Field field="Y Coordinate" selected="True" />
+            <Field field="Year" selected="True" />
+            <Field field="Updated On" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="Int32" />
+            <Field name="Case Number" size="9" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="String" />
+            <Field name="Date" size="22" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="String" />
+            <Field name="Block" size="38" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_String" />
+            <Field name="IUCR" size="4" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="String" />
+            <Field name="Primary Type" size="33" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_String" />
+            <Field name="Description" size="60" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_String" />
+            <Field name="Location Description" size="53" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="V_String" />
+            <Field name="Arrest" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="Bool" />
+            <Field name="Domestic" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="Bool" />
+            <Field name="Beat" size="4" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="String" />
+            <Field name="District" size="3" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="String" />
+            <Field name="Ward" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="Byte" />
+            <Field name="Community Area" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="Byte" />
+            <Field name="FBI Code" size="3" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="String" />
+            <Field name="X Coordinate" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="Int32" />
+            <Field name="Y Coordinate" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="Int32" />
+            <Field name="Year" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="Int16" />
+            <Field name="Updated On" size="22" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="String" />
+            <Field name="Latitude" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="Double" />
+            <Field name="Location" size="29" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\Crimes_-_2001_to_Present.tsv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="426" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy hh:mm:ss</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date From:
+MM/dd/yyyy hh:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="558" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="690" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID" selected="True" />
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Primary Type" selected="True" />
+            <SelectField field="Description" selected="True" />
+            <SelectField field="Location Description" selected="True" />
+            <SelectField field="Arrest" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="690" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Case Number" selected="False" />
+            <SelectField field="Primary Type" selected="False" />
+            <SelectField field="Description" selected="False" />
+            <SelectField field="Location Description" selected="False" />
+            <SelectField field="Domestic" selected="False" />
+            <SelectField field="Beat" selected="False" />
+            <SelectField field="District" selected="False" />
+            <SelectField field="Ward" selected="False" />
+            <SelectField field="Community Area" selected="False" />
+            <SelectField field="FBI Code" selected="False" />
+            <SelectField field="X Coordinate" selected="False" />
+            <SelectField field="Y Coordinate" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="846" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:cc|||Dim_Crime_withDescription</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>100000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:cc
+Query=Dim_Crime_withDescription</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="834" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:cc|||Dim_Crime_withoutDescription</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>100000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:cc
+Query=Dim_Crime_withoutDescription</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>cc4</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
