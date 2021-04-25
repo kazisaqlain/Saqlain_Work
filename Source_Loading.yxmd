@@ -1,0 +1,600 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="54" width="155" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Crashes_Load</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="78" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Crashes.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CRASH DATE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CRASH TIME" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="BOROUGH" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="ZIP CODE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="LATITUDE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="LONGITUDE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="LOCATION" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="ON STREET NAME" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CROSS STREET NAME" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="OFF STREET NAME" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PERSONS INJURED" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PERSONS KILLED" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PEDESTRIANS INJURED" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PEDESTRIANS KILLED" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF CYCLIST INJURED" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF CYCLIST KILLED" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF MOTORIST INJURED" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF MOTORIST KILLED" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 1" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 2" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 3" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 4" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 5" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 1" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 2" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 3" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 4" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 5" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="174" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CRASH DATE" selected="True" />
+                <SelectField field="CRASH TIME" selected="True" />
+                <SelectField field="BOROUGH" selected="True" />
+                <SelectField field="ZIP CODE" selected="True" />
+                <SelectField field="LATITUDE" selected="True" />
+                <SelectField field="LONGITUDE" selected="True" />
+                <SelectField field="LOCATION" selected="True" />
+                <SelectField field="ON STREET NAME" selected="True" />
+                <SelectField field="CROSS STREET NAME" selected="True" />
+                <SelectField field="OFF STREET NAME" selected="True" />
+                <SelectField field="NUMBER OF PERSONS INJURED" selected="True" type="Int64" size="8" />
+                <SelectField field="NUMBER OF PERSONS KILLED" selected="True" type="Int64" size="8" />
+                <SelectField field="NUMBER OF PEDESTRIANS INJURED" selected="True" type="Int64" size="8" />
+                <SelectField field="NUMBER OF PEDESTRIANS KILLED" selected="True" type="Int64" size="8" />
+                <SelectField field="NUMBER OF CYCLIST INJURED" selected="True" type="Int64" size="8" />
+                <SelectField field="NUMBER OF CYCLIST KILLED" selected="True" type="Int64" size="8" />
+                <SelectField field="NUMBER OF MOTORIST INJURED" selected="True" type="Int64" size="8" />
+                <SelectField field="NUMBER OF MOTORIST KILLED" selected="True" type="Int64" size="8" />
+                <SelectField field="CONTRIBUTING FACTOR VEHICLE 1" selected="True" />
+                <SelectField field="CONTRIBUTING FACTOR VEHICLE 2" selected="True" />
+                <SelectField field="CONTRIBUTING FACTOR VEHICLE 3" selected="True" />
+                <SelectField field="CONTRIBUTING FACTOR VEHICLE 4" selected="True" />
+                <SelectField field="CONTRIBUTING FACTOR VEHICLE 5" selected="True" />
+                <SelectField field="COLLISION_ID" selected="True" type="Int64" size="8" />
+                <SelectField field="VEHICLE TYPE CODE 1" selected="True" />
+                <SelectField field="VEHICLE TYPE CODE 2" selected="True" />
+                <SelectField field="VEHICLE TYPE CODE 3" selected="True" />
+                <SelectField field="VEHICLE TYPE CODE 4" selected="True" />
+                <SelectField field="VEHICLE TYPE CODE 5" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="390" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:NC|||Crashes_Load</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:NC
+Query=Crashes_Load</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="270" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="&quot;no_job_id&quot;" field="DI_Job_Id" size="1073741823" type="V_WString" />
+                <FormulaField expression="DateTimeNow()" field="Di_Create_Date" size="19" type="DateTime" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[DI_Job_Id = "no_job_id"
+Di_Create_Date = DateTimeNow()
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="78" y="102" width="150" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Person_Load</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="102" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Person.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_ID" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_TYPE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_INJURY" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_AGE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="EJECTION" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="EMOTIONAL_STATUS" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="BODILY_INJURY" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="POSITION_IN_VEHICLE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="SAFETY_EQUIPMENT" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_LOCATION" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_ACTION" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="COMPLAINT" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_ROLE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_SEX" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="198" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="UNIQUE_ID" selected="True" type="Int64" size="8" />
+                <SelectField field="COLLISION_ID" selected="True" type="Int64" size="8" />
+                <SelectField field="CRASH_DATE" selected="True" />
+                <SelectField field="CRASH_TIME" selected="True" />
+                <SelectField field="PERSON_ID" selected="True" />
+                <SelectField field="PERSON_TYPE" selected="True" />
+                <SelectField field="PERSON_INJURY" selected="True" />
+                <SelectField field="VEHICLE_ID" selected="True" />
+                <SelectField field="PERSON_AGE" selected="True" type="Int64" size="8" />
+                <SelectField field="EJECTION" selected="True" />
+                <SelectField field="EMOTIONAL_STATUS" selected="True" />
+                <SelectField field="BODILY_INJURY" selected="True" />
+                <SelectField field="POSITION_IN_VEHICLE" selected="True" />
+                <SelectField field="SAFETY_EQUIPMENT" selected="True" />
+                <SelectField field="PED_LOCATION" selected="True" />
+                <SelectField field="PED_ACTION" selected="True" />
+                <SelectField field="COMPLAINT" selected="True" />
+                <SelectField field="PED_ROLE" selected="True" />
+                <SelectField field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <SelectField field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <SelectField field="PERSON_SEX" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="426" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:NC|||Person_Load</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Create</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:NC
+Query=Person_Load</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="294" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="&quot;no_job_id&quot;" field="DI_Job_Id" size="1073741823" type="V_WString" />
+                <FormulaField expression="DateTimeNow()" field="Di_Create_Date" size="19" type="DateTime" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[DI_Job_Id = "no_job_id"
+Di_Create_Date = DateTimeNow()
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="66" y="186" width="158" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Vehicles_Load</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="90" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Vehicles.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="STATE_REGISTRATION" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MAKE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MODEL" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_YEAR" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="TRAVEL_DIRECTION" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_OCCUPANTS" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_SEX" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_STATUS" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PRE_CRASH" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="POINT_OF_IMPACT" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_1" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_2" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_3" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\Saqlain Kazi\3D Objects\1st Sem NEU\INFO7370\NYPD_Collision\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="174" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="UNIQUE_ID" selected="True" type="Int64" size="8" />
+                <SelectField field="COLLISION_ID" selected="True" type="Int64" size="8" />
+                <SelectField field="CRASH_DATE" selected="True" />
+                <SelectField field="CRASH_TIME" selected="True" />
+                <SelectField field="VEHICLE_ID" selected="True" />
+                <SelectField field="STATE_REGISTRATION" selected="True" />
+                <SelectField field="VEHICLE_TYPE" selected="True" />
+                <SelectField field="VEHICLE_MAKE" selected="True" />
+                <SelectField field="VEHICLE_MODEL" selected="True" />
+                <SelectField field="VEHICLE_YEAR" selected="True" />
+                <SelectField field="TRAVEL_DIRECTION" selected="True" />
+                <SelectField field="VEHICLE_OCCUPANTS" selected="True" type="Int64" size="8" />
+                <SelectField field="DRIVER_SEX" selected="True" />
+                <SelectField field="DRIVER_LICENSE_STATUS" selected="True" />
+                <SelectField field="DRIVER_LICENSE_JURISDICTION" selected="True" />
+                <SelectField field="PRE_CRASH" selected="True" />
+                <SelectField field="POINT_OF_IMPACT" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE_1" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE_2" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE_3" selected="True" />
+                <SelectField field="PUBLIC_PROPERTY_DAMAGE" selected="True" />
+                <SelectField field="PUBLIC_PROPERTY_DAMAGE_TYPE" selected="True" />
+                <SelectField field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <SelectField field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="414" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:NC|||Vehicles_Load</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Create</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:NC
+Query=Vehicles_Load</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="282" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="&quot;no_job_id&quot;" field="DI_Job_Id" size="1073741823" type="V_WString" />
+                <FormulaField expression="DateTimeNow()" field="Di_Create_Date" size="19" type="DateTime" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[DI_Job_Id = "no_job_id"
+Di_Create_Date = DateTimeNow()
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Source_Loading</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
